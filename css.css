@@ -1,0 +1,228 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 7px;
+}
+
+body{
+    
+    font-size: 1.6rem;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+a{
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+p{
+
+    padding: 1.6rem 0;
+}
+
+header{
+    
+    height: 45rem;
+
+}
+
+header .bg-image{
+
+    background-image: url(asd.jpg);
+    height: 45rem;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+
+header h1{
+
+    padding: 9.2rem;
+    padding-bottom: 0;
+}
+
+.btn{
+
+    background-color: #333;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+    border-radius: 1px;
+    transition: background-color , border , color , 0.3s;
+}
+
+.btn:hover{
+
+    background-color: whitesmoke;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 1px;
+    transition: background-color , border , color , 0.3s;
+}
+
+.btn:active{
+
+    background-color: black;
+    opacity: 0.7;
+    transition: all 0.3;
+    color: whitesmoke;
+
+}
+
+#section-a{
+
+    background-color: whitesmoke;
+    color: #333;
+    padding: 3.2rem 0;
+    height: 15rem;
+    box-shadow: 0px 8px 8px black;
+}
+
+#section-b{
+
+    padding: 2rem;
+    
+}
+
+#section-b ul li{
+
+    background-color: whitesmoke;
+    color: #333;
+    margin-bottom: 2.5rem;
+    box-shadow: 4px 8px 8px black;
+}
+
+#section-c{
+
+    background-color: whitesmoke;
+    color: #333;
+    padding: 5rem;
+    box-shadow: 4px 8px 8px black;
+
+}
+
+#section-d div{
+
+    padding: 5rem;
+}
+
+footer{
+
+    padding: 2.5rem;
+    background: #000;
+}
+
+.box{
+
+    background: whitesmoke;
+    color: #333;
+    margin: 2rem 0;
+    box-shadow: 4px 8px 8px black;
+}
+
+.box a{
+
+    color: black;
+    opacity: 1;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.box a:hover{
+
+    color: rgb(34, 34, 34);
+    opacity: 0.4;
+    transition: all 0.3s;
+}
+
+.box a:active{
+
+    color: whitesmoke;
+    transition: all 0.3s;
+}
+
+.col-content{
+
+    padding: 1.5rem;
+}
+
+.col-content p{
+
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.col-content h3{
+
+    font-size: 4rem;
+}
+
+li{
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li div img{
+
+    border-radius: 2px;
+}
+
+img{
+
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+
+    display: block;
+    content: "";
+    clear: both;
+}
+
+@media screen and (min-width:700px) {
+    
+    html{
+
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    
+    #section-b li{
+
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    
+    html{
+
+        font-size: 17px;
+    }
+
+    .box{
+
+        width: 50%;
+        float: left;
+    }
+
+}
